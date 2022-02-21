@@ -1,6 +1,6 @@
 const LIST_KEY = 'baseballstats.playerlist'
 const KEY_PREFIX = 'baseballstats.'
-export const MAIN_URL = 'http://127.0.0.1:5500'
+export const MAIN_URL = 'https://baseballstats.izzdevs.me'
 
 export function getID(int){
     var code = []
