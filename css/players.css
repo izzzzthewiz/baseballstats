@@ -1,0 +1,78 @@
+#list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+#list h1{
+    font-family: var(--font-main);
+    font-weight: normal;
+    font-size: 6vmin;
+    color: var(--color-main);
+    margin-bottom: 2vh;
+}
+
+.playerList{
+    display: grid;
+    grid-template-columns: 24vw 12vw 12vw 12vw;
+    outline: 1px solid black;
+    grid-gap: 1px;
+    background-color: black;
+    margin-top: -1px;
+}
+.playerList .gridItem{
+    background-color: var(--color-offwhite);
+    padding: 1vmin;
+    font-size: 3vmin;
+    text-align: center;
+}
+.playerList .gridItem button{
+    font-size: 3vmin;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+.playerList .gridItem button:hover{
+    color: var(--color-main);
+}
+.playerList .gridItem button i.fa-solid.fa-circle-xmark{
+    color: var(--color-main);
+}
+
+.newPlayer{
+    display: grid;
+    grid-template-columns: 24vw 24vw 12vw;
+    outline: 1px solid black;
+    grid-gap: 1px;
+    background-color: black;
+    margin-top: -1px;
+}
+.newPlayer .gridItem{
+    background-color: var(--color-offwhite);
+    padding: 1vmin;
+    font-size: 3vmin;
+    text-align: center;
+}
+.newPlayer .gridItem input{
+    width: calc(100%);
+    height: 100%;
+    border: none;
+    font-size: 3vmin;
+    text-align: center;
+    background-color: var(--color-offwhite);
+}
+.newPlayer .gridItem input:focus{
+    outline: none;
+}
+.newPlayer .gridItem button{
+    font-size: 3vmin;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+.newPlayer .gridItem button:hover{
+    color: var(--color-green);
+}
+.newPlayer .gridItem button i.fa-solid.fa-circle-plus{
+    color: var(--color-green);
+}

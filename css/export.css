@@ -1,0 +1,147 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+#container h1{
+    font-family: var(--font-main);
+    font-weight: normal;
+    font-size: 6vmin;
+    color: var(--color-main);
+    margin-bottom: 2vh;
+}
+.playerList .player h2{
+    font-family: var(--font-main);
+    font-weight: normal;
+    font-size: 4vmin;
+    color: black;
+    margin: 1vh 0;
+}
+.playerList .player{
+    padding-bottom: 2vmin;
+    width: 60vw;
+    text-align: center;
+    margin-top: -1px;
+    border: 1px solid black;
+    background-color: var(--color-offwhite);
+}
+.playerList .player button{
+    background-color: var(--color-main);
+    color: white;
+    font-size: 3vmin;
+    font-family: var(--font-main);
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1vmin;
+    border: none;
+    border-radius: 1vmin;
+    width: 12vw;
+    margin-left: 0.5vw;
+    cursor: pointer;
+}
+.playerList .player button:hover{
+    color: var(--color-accent)
+}
+
+.export{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.export h1{
+    font-family: var(--font-main);
+    font-weight: normal;
+    font-size: 6vmin;
+    color: var(--color-main);
+    margin-bottom: 2vh;
+}
+.export h2{
+    font-family: var(--font-main);
+    font-weight: bold;
+    font-size: 4vmin;
+    color: var(--color-main);
+    margin: 2vh 0;
+}
+
+.export .linkcontainer{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2vh;
+}
+.export .linkcontainer input{
+    width: 60vw;
+    text-align: center;
+    border: none;
+    background-color: var(--color-offwhite);
+    padding: 1vmin;
+    font-size: 3vmin;
+    outline: 1px solid black;
+}
+.export .linkcontainer button{
+    width: 10vw;
+    text-align: center;
+    border: none;
+    background-color: var(--color-offwhite);
+    padding: 1vmin;
+    font-size: 3vmin;
+    outline: 1px solid black;
+    cursor: pointer;
+}
+
+.export .jsoncontainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+.export .jsoncontainer textarea{
+    height: 53vh;
+    width: 70vw;
+    background-color: var(--color-offwhite);
+    outline: 1px solid black;
+    border: none;
+    font-size: 2vmin;
+    padding: 1vmin;
+}
+.export .jsoncontainer button{
+    width: 71vw;
+    text-align: center;
+    border: none;
+    background-color: var(--color-offwhite);
+    padding: 1vmin;
+    font-size: 3vmin;
+    outline: 1px solid black;
+    cursor: pointer;
+}
+
+#noPlayers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+}
+#noPlayers h1{
+    font-family: var(--font-main);
+    font-weight: normal;
+    margin: 1vh 0;
+    color: var(--color-main);
+    text-transform: uppercase;
+    font-size: 6vmin;
+}
+#noPlayers a{
+    margin: 1vh 0;
+    background-color: var(--color-main);
+    color: white;
+    font-size: 3vmin;
+    font-family: var(--font-main);
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1vmin 2vmin;
+    border: none;
+    border-radius: 1vmin;
+}
+#noPlayers a:hover{
+    color: var(--color-accent)
+}

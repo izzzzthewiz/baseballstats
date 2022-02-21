@@ -1,0 +1,29 @@
+.nav{
+    background-color: var(--color-main);
+    border-bottom: 1vmin solid var(--color-accent);
+    height: 9vmin;
+    overflow: scroll;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-family: var(--font-main);
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 3vmin;
+    float: left;
+    padding: 2.75vmin 1vw;
+}
+.nav a.logo{
+    text-transform: none;
+    font-size: 5vmin;
+    padding: 2vmin 3vmin;
+    font-family: var(--font-logo);
+}
+.nav a.active{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.nav a:hover{
+    color: var(--color-accent)
+}

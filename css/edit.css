@@ -1,0 +1,202 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+#container h1{
+    font-family: var(--font-main);
+    font-weight: normal;
+    font-size: 6vmin;
+    color: var(--color-main);
+    margin-bottom: 2vh;
+}
+.playerList .player h2{
+    font-family: var(--font-main);
+    font-weight: normal;
+    font-size: 4vmin;
+    color: black;
+    margin: 1vh 0;
+}
+.playerList .player{
+    padding-bottom: 2vmin;
+    width: 60vw;
+    text-align: center;
+    margin-top: -1px;
+    border: 1px solid black;
+    background-color: var(--color-offwhite);
+}
+.playerList .player button{
+    background-color: var(--color-main);
+    color: white;
+    font-size: 3vmin;
+    font-family: var(--font-main);
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1vmin;
+    border: none;
+    border-radius: 1vmin;
+    width: 12vw;
+    margin-left: 0.5vw;
+    cursor: pointer;
+}
+.playerList .player button:hover{
+    color: var(--color-accent)
+}
+
+.editor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.editor h2{
+    font-family: var(--font-main);
+    font-weight: normal;
+    font-size: 6vmin;
+    color: var(--color-main);
+    margin: 1vh 0;
+}
+.editor .grid{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    border: 1px solid black;
+    grid-gap: 1px;
+    background-color: black;
+    margin-top: -1px;
+}
+.editor .grid .gridItem{
+    background-color: var(--color-offwhite);
+    padding: 1vmin;
+    font-size: 3vmin;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.editor .grid .gridItem p{
+    font-family: var(--font-main);
+    font-size: 3vmin;
+}
+.editor .grid .gridItem input,
+.editor .grid .gridItem select{
+    width: 4vw;
+    text-align: center;
+    border: none;
+    background-color: var(--color-offwhite);
+    margin-left: 0.5vw;
+    font-size: 3vmin;
+}
+.editor .grid .gridItem input:focus,
+.editor .grid .gridItem select:focus{
+    outline: 1px solid dodgerblue;
+    border-radius: 1vmin;
+}
+.editor button{
+    background-color: var(--color-main);
+    color: white;
+    font-size: 3vmin;
+    font-family: var(--font-main);
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1vmin;
+    border: none;
+    border-radius: 1vmin;
+    width: 12vw;
+    margin-left: 0.5vw;
+    cursor: pointer;
+    margin-top: 2vmin;
+}
+.editor button:hover{
+    color: var(--color-accent);
+}
+
+#noPlayers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+}
+#noPlayers h1{
+    font-family: var(--font-main);
+    font-weight: normal;
+    margin: 1vh 0;
+    color: var(--color-main);
+    text-transform: uppercase;
+    font-size: 6vmin;
+}
+#noPlayers a{
+    margin: 1vh 0;
+    background-color: var(--color-main);
+    color: white;
+    font-size: 3vmin;
+    font-family: var(--font-main);
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1vmin 2vmin;
+    border: none;
+    border-radius: 1vmin;
+}
+#noPlayers a:hover{
+    color: var(--color-accent)
+}
+
+#error{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.errorbox{
+    background-color: var(--color-offwhite);
+    border: 1px solid var(--color-main);
+    width: 60vw;
+    height: 50vh;
+}
+.errorbox h1{
+    text-transform: uppercase;
+    font-family: var(--font-main);
+    font-weight: bold;
+    color: var(--color-main);
+    margin: 2vmin 0;
+    text-align: center;
+    font-size: 6vmin;
+}
+.errorbox p{
+    margin: 0 2vmin;
+    font-family: var(--font-main);
+    font-size: 3vmin;
+}
+.errorbox p#invalid{
+    color: var(--color-main);
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+.errorbox button{
+    margin: 1vh 0;
+    background-color: var(--color-main);
+    color: white;
+    font-size: 3vmin;
+    font-family: var(--font-main);
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1vmin 2vmin;
+    border: none;
+    border-radius: 1vmin;
+    cursor: pointer;
+}
+.errorbox .button button:hover{
+    color: var(--color-accent);
+}

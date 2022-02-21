@@ -1,0 +1,82 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+#container h1{
+    font-family: var(--font-main);
+    font-weight: normal;
+    font-size: 6vmin;
+    color: var(--color-main);
+    margin-bottom: 2vh;
+}
+
+.import{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.import h1{
+    font-family: var(--font-main);
+    font-weight: normal;
+    font-size: 6vmin;
+    color: var(--color-main);
+    margin-bottom: 2vh;
+}
+.import h2{
+    font-family: var(--font-main);
+    font-weight: bold;
+    font-size: 4vmin;
+    color: var(--color-main);
+    margin: 2vh 0;
+}
+
+.import .linkcontainer{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2vh;
+}
+.import .linkcontainer input{
+    width: 60vw;
+    border: none;
+    background-color: var(--color-offwhite);
+    padding: 1vmin;
+    font-size: 3vmin;
+    outline: 1px solid black;
+}
+.import .linkcontainer button{
+    width: 10vw;
+    text-align: center;
+    border: none;
+    background-color: var(--color-offwhite);
+    padding: 1vmin;
+    font-size: 3vmin;
+    outline: 1px solid black;
+    cursor: pointer;
+}
+
+.import .jsoncontainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+.import .jsoncontainer textarea{
+    height: 53vh;
+    width: 70vw;
+    background-color: var(--color-offwhite);
+    outline: 1px solid black;
+    border: none;
+    font-size: 2vmin;
+    padding: 1vmin;
+}
+.import .jsoncontainer button{
+    width: 71vw;
+    text-align: center;
+    border: none;
+    background-color: var(--color-offwhite);
+    padding: 1vmin;
+    font-size: 3vmin;
+    outline: 1px solid black;
+    cursor: pointer;
+}

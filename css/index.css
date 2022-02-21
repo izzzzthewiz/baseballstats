@@ -1,0 +1,98 @@
+#list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.playerDisplay{
+    background-color: var(--color-offwhite);
+    width: 50vw;
+    padding: 5vh 0;
+    margin-bottom: 5vh;
+    outline: 2px solid var(--color-main);
+    border-radius: 2vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.playerDisplay h1{
+    font-family: var(--font-main);
+    font-weight: normal;
+    font-size: 6vmin;
+    color: var(--color-main);
+}
+.playerDisplay p{
+    font-size: 3vmin;
+    font-family: var(--font-main);
+    font-weight: 200;
+    text-align: center;
+}
+.playerDisplayStats{
+    display: grid;
+    grid-template-columns: 6vw 6vw 6vw 6vw;
+    margin-top: 2vh;
+}
+.playerDisplayStats .main{
+    color: var(--color-main);
+}
+.playerDisplayStats .title{
+    color: var(--color-gray);
+}
+.playerDisplayStats .bold{
+    font-weight: bold;
+}
+.playerDisplayButtons{
+    display: grid;
+    grid-template-columns: 12vw 12vw;
+    margin-top: 2vh;
+}
+.playerDisplayButtons a{
+    background-color: var(--color-main);
+    color: white;
+    font-size: 3vmin;
+    font-family: var(--font-main);
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1vmin;
+    border: none;
+    border-radius: 1vmin;
+    width: 10vw;
+    margin-left: 0.5vw;
+    text-align: center;
+}
+.playerDisplayButtons a:hover{
+    color: var(--color-accent)
+}
+
+#noPlayers{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20vh;
+}
+#noPlayers h1{
+    font-family: var(--font-main);
+    font-weight: normal;
+    margin: 1vh 0;
+    color: var(--color-main);
+    text-transform: uppercase;
+    font-size: 6vmin;
+}
+#noPlayers a{
+    margin: 1vh 0;
+    background-color: var(--color-main);
+    color: white;
+    font-size: 3vmin;
+    font-family: var(--font-main);
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1vmin 2vmin;
+    border: none;
+    border-radius: 1vmin;
+}
+#noPlayers a:hover{
+    color: var(--color-accent)
+}

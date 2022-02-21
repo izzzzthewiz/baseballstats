@@ -1,0 +1,27 @@
+/* Fonts */
+@font-face {font-family: 'Roboto';src: url(../fonts/Roboto/Roboto-Regular.ttf);font-weight: normal;font-style: normal;}
+@font-face {font-family: 'Roboto';src: url(../fonts/Roboto/Roboto-Italic.ttf);font-weight: normal;font-style: italic;}
+@font-face {font-family: 'Roboto';src: url(../fonts/Roboto/Roboto-Bold.ttf);font-weight: bold;font-style: normal;}
+@font-face {font-family: 'Roboto';src: url(../fonts/Roboto/Roboto-BoldItalic.ttf);font-weight: bold;font-style: italic;}
+@font-face {font-family: 'Roboto';src: url(../fonts/Roboto/Roboto-Thin.ttf);font-weight: 100;font-style: normal;}
+@font-face {font-family: 'Roboto';src: url(../fonts/Roboto/Roboto-ThinItalic.ttf);font-weight: 100;font-style: italic;}
+@font-face {font-family: 'Roboto';src: url(../fonts/Roboto/Roboto-Light.ttf);font-weight: 200;font-style: normal;}
+@font-face {font-family: 'Roboto';src: url(../fonts/Roboto/Roboto-LightItalic.ttf);font-weight: 200;font-style: italic;}
+
+@font-face {font-family: 'Rooster';src: url(../fonts/Rooster.ttf);}
+
+/* All */
+:root{
+    --font-main: 'Roboto', Arial, Helvetica, sans-serif;
+    --font-logo: 'Rooster', Arial, Helvetica, sans-serif;
+    --color-main: #dc143c;
+    --color-accent: #ffa9ba;
+    --color-offwhite: #eeeeee;
+    --color-gray: #555555;
+    --color-green: #00cc00;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-main);
+}
